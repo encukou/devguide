@@ -277,30 +277,77 @@ PEG Generator       gvanrossum, pablogsal, lysnikolaou
 Platforms
 =========
 
-For official contacts for supported platforms, see :pep:`11`.
+Supported platforms
+-------------------
 
-Platforms listed here are not necessarily supported by CPython.
-Some of the experts listed here maintain and distribute Python
-for “their” platform as a third-party project.
+For official contacts for supported platforms, see :pep:`11`.
+Other experts for CPython supported platforms:
 
 ===================   ===========
 Platform              Maintainers
 ===================   ===========
-AIX                   edelsohn, ayappanec
-Android               mhsmith
-Cygwin                jlt63^, stutzbach^
-Emscripten            hoodmane, pmp-p, rdb, rth, ryanking13
-FreeBSD
-HP-UX
-iOS                   freakboy3742, ned-deily
-Linux
-macOS                 ronaldoussoren, ned-deily, freakboy3742
-NetBSD1
-OS2/EMX               aimacintyre^
-Solaris/OpenIndiana   jcea
-Windows               tjguk, zware, zooba, pfmoore
-JVM/Java              frank.wierzbicki^
+Android               :github-user:`mhsmith`
+iOS                   :github-user:`freakboy3742`, :github-user:`ned-deily`
+Linux                 :github-user:`encukou`, :github-user:`vstinner`,
+                      :github-user:`gpshead`
+macOS                 :github-user:`ronaldoussoren`, :github-user:`ned-deily`,
+                      :github-user:`freakboy3742`
+WASI                  :github-user:`brettcannon`,
+                      :github-user:`ericsnowcurrently`
+Windows               :github-user:`zooba`, :github-user:`zware`,
+                      :github-user:`pfmoore`, :github-user:`tjguk`
 ===================   ===========
+
+
+Third-party redistributors
+--------------------------
+
+Contacts to notify about platform-specific issues that need collaboration,
+or ones that should be reported to the other project rather than CPython.
+
+For details about this list and how to get on it, see
+:ref:`unsupported-platform-projects`.
+
+.. list-table::
+   :header-rows: 1
+
+   * - Project
+     - Platform
+     - Maintainers (GitHub usernames)
+
+   * - `Fedora <https://fedoraproject.org/wiki/SIGs/Python>`_
+     - Linux
+     - :github-user:`hroncok`
+
+   * - `IBM AIX <https://www.ibm.com/products/aix>`_
+     - AIX
+     - :github-user:`edelsohn`, :github-user:`ayappanec`
+
+   * - `Pyodide <https://pyodide.org>`_
+     - Emscripten
+     - :github-user:`hoodmane`, :github-user:`pmp-p`, :github-user:`rdb`,
+       :github-user:`rth`, :github-user:`ryanking13`
+
+
+Other unsupported platforms
+---------------------------
+
+Contacts for platforms that don't have a listed public or official port.
+
+.. list-table::
+   :header-rows: 1
+
+   * - Platform
+     - Maintainers (GitHub usernames)
+
+   * - Cygwin
+     - jlt63^, stutzbach^
+
+   * - OS2/EMX
+     - aimacintyre^
+
+   * - Solaris/OpenIndiana
+     - :github-user:`jcea`
 
 
 Miscellaneous

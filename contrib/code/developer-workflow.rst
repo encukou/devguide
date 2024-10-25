@@ -10,6 +10,9 @@ Development workflow
 
 [This is the existing :ref:`dev-workflow` page from the devguide]
 
+[Note: ``porting`` ("Porting to a new platform") should be renamed
+to "platform support"]
+
 .. toctree::
    :maxdepth: 5
 
